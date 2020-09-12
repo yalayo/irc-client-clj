@@ -1,0 +1,14 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.1"}}
+ :paths ["src"]
+ :aliases {:cdk     {:main-opts ["-m" "stedi.cdk.main" "synth"]}
+           :classes {:extra-paths ["classes"]}
+           :dev     {:extra-paths ["cdk"]
+                     :extra-deps  {stedi/cdk-clj {:git/url "https://github.com/StediInc/cdk-clj.git"
+                                                  :sha     "8de0174c47ef456f0c22a6bec0ca9845844cc818"}
+                                   uberdeps {:mvn/version "0.1.6"}
+                                   org.clojure/test.check {:mvn/version "0.10.0"}
+                                   software.amazon.awscdk/s3 {:mvn/version "1.20.0"}
+                                   software.amazon.awscdk/lambda {:mvn/version "1.20.0"}
+                                   }}
+           :test {:extra-paths ["test"]
+                  :extra-deps {org.clojure/test.check {:mvn/version "0.10.0"}}}}}
