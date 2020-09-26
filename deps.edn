@@ -1,8 +1,6 @@
-{:deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        org.clojure/core.async {:mvn/version "1.3.610"}
-        aleph {:mvn/version "0.4.7-alpha5"}
-        gloss {:mvn/version "0.2.6"}}
- :paths ["src"]
+{:deps {org.clojure/clojure {:mvn/version "1.10.2-alpha1"}
+        aleph {:mvn/version "0.4.7-alpha5"}}
+ :paths ["src", "classes"]
  :aliases {:cdk     {:main-opts ["-m" "stedi.cdk.main" "synth"]}
            :classes {:extra-paths ["classes"]}
            :dev     {:extra-paths ["cdk"]
@@ -14,4 +12,28 @@
                                    software.amazon.awscdk/lambda {:mvn/version "1.20.0"}
                                    }}
            :test {:extra-paths ["test"]
-                  :extra-deps {org.clojure/test.check {:mvn/version "0.10.0"}}}}}
+                  :extra-deps {org.clojure/test.check {:mvn/version "0.10.0"}}}
+           :uberjar {:extra-deps {uberdeps/uberdeps {:mvn/version "1.0.2"}}
+                     :main-opts ["-m" "uberdeps.uberjar"]}
+           :native-image {:main-opts ["-m clj.native-image core"
+                        "--report-unsupported-elements-at-runtime"
+                                      "--initialize-at-build-time"
+                                      "--initialize-at-run-time=io.netty.channel.epoll.EpollEventArray,io.netty.channel.unix.Errors,io.netty.channel.unix.IovArray,io.netty.channel.unix.Socket,io.netty.channel.epoll.Native,io.netty.channel.epoll.EpollEventLoop,io.netty.util.internal.logging.Log4JLogger,io.netty.resolver.dns.DnsNameResolver,io.netty.resolver.dns.DnsQueryContextManager,io.netty.handler.ssl.util.ThreadLocalInsecureRandom,io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider,io.netty.channel.unix.FileDescriptor,io.netty.channel.socket.InternetProtocolFamily,io.netty.resolver.dns.DnsServerAddressStreamProviders,io.netty.handler.ssl.ReferenceCountedOpenSslServerContext,o.netty.handler.ssl.ReferenceCountedOpenSslClientContext,io.netty.handler.ssl.JdkNpnApplicationProtocolNegotiator,io.netty.handler.ssl.ReferenceCountedOpenSslEngine,io.netty.resolver.dns.DnsNameResolverBuilder,io.netty.resolver.HostsFileEntriesResolver,io.netty.util.NetUtil,io.netty.channel.DefaultChannelId"
+                                      "-H:ConfigurationFileDirectories=temp"
+                                      "-H:+TraceClassInitialization"
+                                      "-H:+ReportExceptionStackTraces"
+                                      "-H:+DeadlockWatchdogExitOnTimeout"
+                                      "-H:DeadlockWatchdogInterval=100"
+                                      "--allow-incomplete-classpath"
+                                      "--no-fallback"
+                                      "--no-server"
+                                      "--verbose"
+                                      "-J-Xmx8g"
+                                      "-J-Xms8g"
+
+                        ;; optional native image name override
+                        "-H:Name=core"]
+                          :jvm-opts ["-Dclojure.compiler.direct-linking=true"]
+                          :extra-deps {clj.native-image {:git/url "https://github.com/taylorwood/clj.native-image.git"
+                                                         :sha "5227df16ead1fef7cddd94e6853d810e7d08579b"
+                                                         :tag "v0.0.6"}}}}}
