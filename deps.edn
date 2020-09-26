@@ -19,7 +19,7 @@
                         "--report-unsupported-elements-at-runtime"
                                       "--initialize-at-build-time"
                                       "--initialize-at-run-time=io.netty.channel.epoll.EpollEventArray,io.netty.channel.unix.Errors,io.netty.channel.unix.IovArray,io.netty.channel.unix.Socket,io.netty.channel.epoll.Native,io.netty.channel.epoll.EpollEventLoop,io.netty.util.internal.logging.Log4JLogger,io.netty.resolver.dns.DnsNameResolver,io.netty.resolver.dns.DnsQueryContextManager,io.netty.handler.ssl.util.ThreadLocalInsecureRandom,io.netty.resolver.dns.DefaultDnsServerAddressStreamProvider,io.netty.channel.unix.FileDescriptor,io.netty.channel.socket.InternetProtocolFamily,io.netty.resolver.dns.DnsServerAddressStreamProviders,io.netty.handler.ssl.ReferenceCountedOpenSslServerContext,o.netty.handler.ssl.ReferenceCountedOpenSslClientContext,io.netty.handler.ssl.JdkNpnApplicationProtocolNegotiator,io.netty.handler.ssl.ReferenceCountedOpenSslEngine,io.netty.resolver.dns.DnsNameResolverBuilder,io.netty.resolver.HostsFileEntriesResolver,io.netty.util.NetUtil,io.netty.channel.DefaultChannelId"
-                                      "-H:ConfigurationFileDirectories=temp"
+                                      "-H:ConfigurationFileDirectories=config"
                                       "-H:+TraceClassInitialization"
                                       "-H:+ReportExceptionStackTraces"
                                       "-H:+DeadlockWatchdogExitOnTimeout"
