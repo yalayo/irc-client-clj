@@ -1,12 +1,12 @@
 {:deps {org.clojure/clojure {:mvn/version "1.10.2-alpha1"}
-        aleph {:mvn/version "0.4.7-alpha5"}}
+        aleph/aleph {:mvn/version "0.4.7-alpha5"}}
  :paths ["src", "classes"]
  :aliases {:cdk     {:main-opts ["-m" "stedi.cdk.main" "synth"]}
            :classes {:extra-paths ["classes"]}
            :dev     {:extra-paths ["cdk"]
                      :extra-deps  {stedi/cdk-clj {:git/url "https://github.com/StediInc/cdk-clj.git"
                                                   :sha     "8de0174c47ef456f0c22a6bec0ca9845844cc818"}
-                                   uberdeps {:mvn/version "0.1.6"}
+                                   uberdeps/uberdeps {:mvn/version "0.1.6"}
                                    org.clojure/test.check {:mvn/version "0.10.0"}
                                    software.amazon.awscdk/s3 {:mvn/version "1.20.0"}
                                    software.amazon.awscdk/lambda {:mvn/version "1.20.0"}
@@ -34,6 +34,6 @@
                         ;; optional native image name override
                         "-H:Name=core"]
                           :jvm-opts ["-Dclojure.compiler.direct-linking=true"]
-                          :extra-deps {clj.native-image {:git/url "https://github.com/taylorwood/clj.native-image.git"
+                          :extra-deps {clj.native-image/clj.native-image {:git/url "https://github.com/taylorwood/clj.native-image.git"
                                                          :sha "5227df16ead1fef7cddd94e6853d810e7d08579b"
                                                          :tag "v0.0.6"}}}}}
