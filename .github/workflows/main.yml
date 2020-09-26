@@ -17,4 +17,6 @@ jobs:
           cli: '1.10.1.469'
       - run: gu install native-image
       - run: clojure -A:native-image
+        env:
+          GRAALVM_HOME: '/opt/hostedtoolcache/GraalVM/20.2.0-java8/x64'
       
