@@ -1,9 +1,7 @@
 (ns main
-  (:require [clojure.core.async :refer [go-loop go chan >! <!]]
-            [aleph.tcp :as tcp]
+  (:require [aleph.tcp :as tcp]
             [manifold.deferred :as d]
-            [manifold.stream :as s]
-            [gloss.core :refer [string]]))
+            [manifold.stream :as s]))
 
 (defn f[msg]
   (println (String. msg)))
@@ -26,7 +24,7 @@
 
 
 (defn chat []
-  (let [conn (tcp/client {:host "hitchcock.freenode.net" :port 6667 :frame (string :utf-8 :delimiters ["\r\n"])})]
+  (let [conn (tcp/client {:host "hitchcock.freenode.net" :port 6667 })]
     (my-consume f @conn)
     @(s/put! @conn "PASS NOPASS\n\r")
     @(s/put! @conn "NICK busq1\n\r")
@@ -34,5 +32,5 @@
     @(s/put! @conn "JOIN #clojure\n\r")
     ))
 
-(chat)
+;;(chat)
 
