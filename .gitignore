@@ -1,2 +1,6 @@
 .cpcache/
 .nrepl-port
+classes/
+core
+target/
+temp/
