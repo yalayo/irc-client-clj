@@ -1,0 +1,1451 @@
+[
+{
+  "name":"aleph.netty.AlephServer"
+},
+{
+  "name":"aleph.netty.ChannelSink"
+},
+{
+  "name":"aleph.netty__init"
+},
+{
+  "name":"aleph.tcp.ILookupTcpConnection"
+},
+{
+  "name":"aleph.tcp.TcpConnection"
+},
+{
+  "name":"aleph.tcp__init"
+},
+{
+  "name":"byte_streams.ByteBufferInputStream"
+},
+{
+  "name":"byte_streams.InputStream"
+},
+{
+  "name":"byte_streams.InputStream$Streamable"
+},
+{
+  "name":"byte_streams.Utils"
+},
+{
+  "name":"byte_streams.char_sequence__init"
+},
+{
+  "name":"byte_streams.graph.Conversion"
+},
+{
+  "name":"byte_streams.graph.ConversionGraph"
+},
+{
+  "name":"byte_streams.graph.ConversionPath"
+},
+{
+  "name":"byte_streams.graph.IConversionGraph"
+},
+{
+  "name":"byte_streams.graph.Type"
+},
+{
+  "name":"byte_streams.graph__init"
+},
+{
+  "name":"byte_streams.protocols$fn__4164",
+  "allPublicConstructors":true
+},
+{
+  "name":"byte_streams.protocols.ByteSink"
+},
+{
+  "name":"byte_streams.protocols.ByteSource"
+},
+{
+  "name":"byte_streams.protocols.Closeable"
+},
+{
+  "name":"byte_streams.protocols__init"
+},
+{
+  "name":"byte_streams.pushback_stream.Consumption"
+},
+{
+  "name":"byte_streams.pushback_stream.PushbackByteStream"
+},
+{
+  "name":"byte_streams.pushback_stream.PushbackStream"
+},
+{
+  "name":"byte_streams.pushback_stream.SynchronizedPushbackByteStream"
+},
+{
+  "name":"byte_streams.pushback_stream__init"
+},
+{
+  "name":"byte_streams.utils__init"
+},
+{
+  "name":"byte_streams__init"
+},
+{
+  "name":"clj_tuple__init"
+},
+{
+  "name":"clojure.asm.ClassVisitor"
+},
+{
+  "name":"clojure.asm.ClassWriter"
+},
+{
+  "name":"clojure.asm.Opcodes"
+},
+{
+  "name":"clojure.asm.Type"
+},
+{
+  "name":"clojure.asm.commons.GeneratorAdapter"
+},
+{
+  "name":"clojure.asm.commons.Method"
+},
+{
+  "name":"clojure.core.ArrayChunk"
+},
+{
+  "name":"clojure.core.ArrayManager"
+},
+{
+  "name":"clojure.core.Eduction"
+},
+{
+  "name":"clojure.core.IVecImpl"
+},
+{
+  "name":"clojure.core.Inst"
+},
+{
+  "name":"clojure.core.Vec"
+},
+{
+  "name":"clojure.core.VecNode"
+},
+{
+  "name":"clojure.core.VecSeq"
+},
+{
+  "name":"clojure.core.protocols.CollReduce"
+},
+{
+  "name":"clojure.core.protocols.Datafiable"
+},
+{
+  "name":"clojure.core.protocols.IKVReduce"
+},
+{
+  "name":"clojure.core.protocols.InternalReduce"
+},
+{
+  "name":"clojure.core.protocols.Navigable"
+},
+{
+  "name":"clojure.core.protocols__init"
+},
+{
+  "name":"clojure.core.server__init"
+},
+{
+  "name":"clojure.core.specs.alpha$eval11",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$eval134",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$eval136",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$eval5",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$eval7",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$even_number_of_forms_QMARK_",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__101",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__104",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__106",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__109",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__112",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__114",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__117",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__119",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__121",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__16",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__19",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__22",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__25",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__28",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__30",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__33",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__35",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__38",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__41",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__44",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__48",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__51",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__54",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__56",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__58",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__71",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__73",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__85",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$fn__98",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core.specs.alpha$quotable",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.core__init"
+},
+{
+  "name":"clojure.core_deftype__init"
+},
+{
+  "name":"clojure.core_print__init"
+},
+{
+  "name":"clojure.core_proxy__init"
+},
+{
+  "name":"clojure.edn__init"
+},
+{
+  "name":"clojure.genclass__init"
+},
+{
+  "name":"clojure.gvec__init"
+},
+{
+  "name":"clojure.instant__init"
+},
+{
+  "name":"clojure.java.io.Coercions"
+},
+{
+  "name":"clojure.java.io.IOFactory"
+},
+{
+  "name":"clojure.java.io__init"
+},
+{
+  "name":"clojure.lang.APersistentMap$KeySeq"
+},
+{
+  "name":"clojure.lang.APersistentMap$ValSeq"
+},
+{
+  "name":"clojure.lang.ASeq"
+},
+{
+  "name":"clojure.lang.BigInt"
+},
+{
+  "name":"clojure.lang.ChunkBuffer"
+},
+{
+  "name":"clojure.lang.Compiler",
+  "allPublicFields":true
+},
+{
+  "name":"clojure.lang.Compiler$CompilerException"
+},
+{
+  "name":"clojure.lang.Compiler$ObjExpr"
+},
+{
+  "name":"clojure.lang.Compiler$ObjMethod"
+},
+{
+  "name":"clojure.lang.DynamicClassLoader"
+},
+{
+  "name":"clojure.lang.ExceptionInfo"
+},
+{
+  "name":"clojure.lang.Fn"
+},
+{
+  "name":"clojure.lang.IBlockingDeref"
+},
+{
+  "name":"clojure.lang.IChunk"
+},
+{
+  "name":"clojure.lang.IChunkedSeq"
+},
+{
+  "name":"clojure.lang.IDeref"
+},
+{
+  "name":"clojure.lang.IExceptionInfo"
+},
+{
+  "name":"clojure.lang.IFn"
+},
+{
+  "name":"clojure.lang.IKVReduce"
+},
+{
+  "name":"clojure.lang.IObj",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.IPending"
+},
+{
+  "name":"clojure.lang.IPersistentCollection"
+},
+{
+  "name":"clojure.lang.IPersistentList"
+},
+{
+  "name":"clojure.lang.IPersistentMap"
+},
+{
+  "name":"clojure.lang.IPersistentSet"
+},
+{
+  "name":"clojure.lang.IPersistentVector"
+},
+{
+  "name":"clojure.lang.IProxy"
+},
+{
+  "name":"clojure.lang.IRecord"
+},
+{
+  "name":"clojure.lang.IReduceInit"
+},
+{
+  "name":"clojure.lang.ISeq"
+},
+{
+  "name":"clojure.lang.Keyword"
+},
+{
+  "name":"clojure.lang.LazilyPersistentVector"
+},
+{
+  "name":"clojure.lang.LazySeq"
+},
+{
+  "name":"clojure.lang.LineNumberingPushbackReader"
+},
+{
+  "name":"clojure.lang.LispReader$ReaderException"
+},
+{
+  "name":"clojure.lang.LockingTransaction",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.Murmur3"
+},
+{
+  "name":"clojure.lang.Namespace",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.PersistentArrayMap",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.PersistentHashMap"
+},
+{
+  "name":"clojure.lang.PersistentHashSet"
+},
+{
+  "name":"clojure.lang.PersistentQueue"
+},
+{
+  "name":"clojure.lang.PersistentUnrolledMap"
+},
+{
+  "name":"clojure.lang.PersistentUnrolledVector"
+},
+{
+  "name":"clojure.lang.PersistentVector"
+},
+{
+  "name":"clojure.lang.RT",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.Ratio"
+},
+{
+  "name":"clojure.lang.ReaderConditional"
+},
+{
+  "name":"clojure.lang.Reflector"
+},
+{
+  "name":"clojure.lang.Seqable"
+},
+{
+  "name":"clojure.lang.StringSeq"
+},
+{
+  "name":"clojure.lang.Symbol",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.TaggedLiteral"
+},
+{
+  "name":"clojure.lang.Util"
+},
+{
+  "name":"clojure.lang.Var",
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.lang.Volatile"
+},
+{
+  "name":"clojure.main__init"
+},
+{
+  "name":"clojure.pprint.PrettyFlush"
+},
+{
+  "name":"clojure.pprint.cl_format__init"
+},
+{
+  "name":"clojure.pprint.column_writer__init"
+},
+{
+  "name":"clojure.pprint.dispatch__init"
+},
+{
+  "name":"clojure.pprint.pprint_base__init"
+},
+{
+  "name":"clojure.pprint.pretty_writer__init"
+},
+{
+  "name":"clojure.pprint.print_table__init"
+},
+{
+  "name":"clojure.pprint.utilities__init"
+},
+{
+  "name":"clojure.pprint__init"
+},
+{
+  "name":"clojure.set__init"
+},
+{
+  "name":"clojure.spec.alpha.Spec"
+},
+{
+  "name":"clojure.spec.alpha.Specize"
+},
+{
+  "name":"clojure.spec.alpha__init"
+},
+{
+  "name":"clojure.spec.gen.alpha__init"
+},
+{
+  "name":"clojure.string__init"
+},
+{
+  "name":"clojure.tools.logging$eval138",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"clojure.tools.logging.impl.Logger"
+},
+{
+  "name":"clojure.tools.logging.impl.LoggerFactory",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"clojure.tools.logging.impl__init"
+},
+{
+  "name":"clojure.tools.logging__init"
+},
+{
+  "name":"clojure.uuid__init"
+},
+{
+  "name":"clojure.walk__init"
+},
+{
+  "name":"core__init"
+},
+{
+  "name":"io.aleph.dirigiste.Executor"
+},
+{
+  "name":"io.aleph.dirigiste.Executor$Controller"
+},
+{
+  "name":"io.aleph.dirigiste.Executors"
+},
+{
+  "name":"io.aleph.dirigiste.Stats"
+},
+{
+  "name":"io.aleph.dirigiste.Stats$Metric"
+},
+{
+  "name":"io.netty.bootstrap.Bootstrap"
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap"
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.buffer.ByteBuf"
+},
+{
+  "name":"io.netty.buffer.Unpooled"
+},
+{
+  "name":"io.netty.channel.Channel"
+},
+{
+  "name":"io.netty.channel.ChannelFuture"
+},
+{
+  "name":"io.netty.channel.ChannelHandler"
+},
+{
+  "name":"io.netty.channel.ChannelHandlerContext"
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandler"
+},
+{
+  "name":"io.netty.channel.ChannelInitializer"
+},
+{
+  "name":"io.netty.channel.ChannelOption"
+},
+{
+  "name":"io.netty.channel.ChannelOutboundHandler"
+},
+{
+  "name":"io.netty.channel.ChannelPipeline"
+},
+{
+  "name":"io.netty.channel.EventLoopGroup"
+},
+{
+  "name":"io.netty.channel.FileRegion"
+},
+{
+  "name":"io.netty.channel.epoll.Epoll"
+},
+{
+  "name":"io.netty.channel.epoll.EpollEventLoopGroup"
+},
+{
+  "name":"io.netty.channel.epoll.EpollServerSocketChannel"
+},
+{
+  "name":"io.netty.channel.epoll.EpollSocketChannel"
+},
+{
+  "name":"io.netty.channel.nio.NioEventLoopGroup"
+},
+{
+  "name":"io.netty.channel.socket.ServerSocketChannel"
+},
+{
+  "name":"io.netty.channel.socket.nio.NioDatagramChannel"
+},
+{
+  "name":"io.netty.channel.socket.nio.NioServerSocketChannel"
+},
+{
+  "name":"io.netty.channel.socket.nio.NioSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.handler.codec.Headers"
+},
+{
+  "name":"io.netty.handler.ssl.SslContext"
+},
+{
+  "name":"io.netty.handler.ssl.SslContextBuilder"
+},
+{
+  "name":"io.netty.handler.ssl.SslHandler"
+},
+{
+  "name":"io.netty.handler.ssl.util.InsecureTrustManagerFactory"
+},
+{
+  "name":"io.netty.handler.ssl.util.SelfSignedCertificate"
+},
+{
+  "name":"io.netty.resolver.AddressResolverGroup"
+},
+{
+  "name":"io.netty.resolver.NoopAddressResolverGroup"
+},
+{
+  "name":"io.netty.resolver.ResolvedAddressTypes"
+},
+{
+  "name":"io.netty.resolver.dns.DnsAddressResolverGroup"
+},
+{
+  "name":"io.netty.resolver.dns.DnsNameResolverBuilder"
+},
+{
+  "name":"io.netty.resolver.dns.DnsServerAddressStreamProvider"
+},
+{
+  "name":"io.netty.resolver.dns.SequentialDnsServerAddressStreamProvider"
+},
+{
+  "name":"io.netty.resolver.dns.SingletonDnsServerAddressStreamProvider"
+},
+{
+  "name":"io.netty.util.Attribute"
+},
+{
+  "name":"io.netty.util.AttributeKey"
+},
+{
+  "name":"io.netty.util.ReferenceCountUtil",
+  "allDeclaredMethods":true
+},
+{
+  "name":"io.netty.util.ResourceLeakDetector"
+},
+{
+  "name":"io.netty.util.ResourceLeakDetector$Level"
+},
+{
+  "name":"io.netty.util.concurrent.Future"
+},
+{
+  "name":"io.netty.util.concurrent.GenericFutureListener"
+},
+{
+  "name":"io.netty.util.internal.SystemPropertyUtil"
+},
+{
+  "name":"io.netty.util.internal.logging.InternalLoggerFactory"
+},
+{
+  "name":"io.netty.util.internal.logging.JdkLoggerFactory"
+},
+{
+  "name":"io.netty.util.internal.logging.Log4J2LoggerFactory"
+},
+{
+  "name":"io.netty.util.internal.logging.Log4JLoggerFactory"
+},
+{
+  "name":"io.netty.util.internal.logging.Slf4JLoggerFactory"
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex", "allowUnsafeAccess":true}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.MpscArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit", "allowUnsafeAccess":true}]
+},
+{
+  "name":"java.io.BufferedInputStream"
+},
+{
+  "name":"java.io.BufferedOutputStream"
+},
+{
+  "name":"java.io.BufferedReader"
+},
+{
+  "name":"java.io.BufferedWriter"
+},
+{
+  "name":"java.io.ByteArrayInputStream"
+},
+{
+  "name":"java.io.ByteArrayOutputStream"
+},
+{
+  "name":"java.io.CharArrayReader"
+},
+{
+  "name":"java.io.Closeable"
+},
+{
+  "name":"java.io.DataInputStream"
+},
+{
+  "name":"java.io.File"
+},
+{
+  "name":"java.io.FileInputStream"
+},
+{
+  "name":"java.io.FileOutputStream"
+},
+{
+  "name":"java.io.FileWriter"
+},
+{
+  "name":"java.io.IOException"
+},
+{
+  "name":"java.io.InputStream"
+},
+{
+  "name":"java.io.InputStreamReader"
+},
+{
+  "name":"java.io.NotSerializableException"
+},
+{
+  "name":"java.io.OutputStream"
+},
+{
+  "name":"java.io.OutputStreamWriter"
+},
+{
+  "name":"java.io.PipedInputStream"
+},
+{
+  "name":"java.io.PipedOutputStream"
+},
+{
+  "name":"java.io.PrintWriter"
+},
+{
+  "name":"java.io.PushbackReader"
+},
+{
+  "name":"java.io.RandomAccessFile"
+},
+{
+  "name":"java.io.Reader"
+},
+{
+  "name":"java.io.Serializable"
+},
+{
+  "name":"java.io.StringReader"
+},
+{
+  "name":"java.io.Writer"
+},
+{
+  "name":"java.lang.Boolean"
+},
+{
+  "name":"java.lang.CharSequence"
+},
+{
+  "name":"java.lang.Character"
+},
+{
+  "name":"java.lang.Class",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Double"
+},
+{
+  "name":"java.lang.Float"
+},
+{
+  "name":"java.lang.Integer"
+},
+{
+  "name":"java.lang.Iterable"
+},
+{
+  "name":"java.lang.Long"
+},
+{
+  "name":"java.lang.Number"
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Object[]"
+},
+{
+  "name":"java.lang.StackTraceElement"
+},
+{
+  "name":"java.lang.String",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.ThreadLocal"
+},
+{
+  "name":"java.lang.Throwable"
+},
+{
+  "name":"java.lang.UnsupportedOperationException"
+},
+{
+  "name":"java.lang.annotation.Annotation"
+},
+{
+  "name":"java.lang.annotation.Retention"
+},
+{
+  "name":"java.lang.management.ManagementFactory",
+  "methods":[{"name":"getRuntimeMXBean","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.management.RuntimeMXBean",
+  "methods":[{"name":"getName","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.ref.ReferenceQueue"
+},
+{
+  "name":"java.lang.ref.WeakReference"
+},
+{
+  "name":"java.lang.reflect.Array"
+},
+{
+  "name":"java.lang.reflect.Constructor"
+},
+{
+  "name":"java.lang.reflect.Field"
+},
+{
+  "name":"java.lang.reflect.Modifier"
+},
+{
+  "name":"java.math.BigDecimal"
+},
+{
+  "name":"java.math.BigInteger"
+},
+{
+  "name":"java.net.InetAddress"
+},
+{
+  "name":"java.net.InetSocketAddress"
+},
+{
+  "name":"java.net.MalformedURLException"
+},
+{
+  "name":"java.net.ServerSocket"
+},
+{
+  "name":"java.net.Socket"
+},
+{
+  "name":"java.net.SocketAddress"
+},
+{
+  "name":"java.net.SocketException"
+},
+{
+  "name":"java.net.URI"
+},
+{
+  "name":"java.net.URL"
+},
+{
+  "name":"java.net.URLDecoder"
+},
+{
+  "name":"java.net.URLEncoder"
+},
+{
+  "name":"java.nio.Bits",
+  "methods":[{"name":"unaligned","parameterTypes":[] }]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address", "allowUnsafeAccess":true}]
+},
+{
+  "name":"java.nio.ByteBuffer"
+},
+{
+  "name":"java.nio.CharBuffer"
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "fields":[{"name":"cleaner", "allowUnsafeAccess":true}],
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.Channels"
+},
+{
+  "name":"java.nio.channels.FileChannel"
+},
+{
+  "name":"java.nio.channels.FileChannel$MapMode"
+},
+{
+  "name":"java.nio.channels.Pipe"
+},
+{
+  "name":"java.nio.channels.ReadableByteChannel"
+},
+{
+  "name":"java.nio.channels.WritableByteChannel"
+},
+{
+  "name":"java.nio.channels.spi.AbstractSelectableChannel"
+},
+{
+  "name":"java.nio.charset.Charset"
+},
+{
+  "name":"java.nio.charset.CharsetDecoder"
+},
+{
+  "name":"java.nio.charset.CoderResult"
+},
+{
+  "name":"java.nio.charset.CodingErrorAction"
+},
+{
+  "name":"java.nio.file.Files"
+},
+{
+  "name":"java.nio.file.attribute.FileAttribute"
+},
+{
+  "name":"java.security.MessageDigestSpi"
+},
+{
+  "name":"java.security.PrivateKey"
+},
+{
+  "name":"java.security.cert.X509Certificate"
+},
+{
+  "name":"java.sql.Timestamp"
+},
+{
+  "name":"java.time.Instant"
+},
+{
+  "name":"java.util.ArrayDeque"
+},
+{
+  "name":"java.util.Calendar"
+},
+{
+  "name":"java.util.Collection"
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.EnumSet"
+},
+{
+  "name":"java.util.GregorianCalendar"
+},
+{
+  "name":"java.util.Iterator"
+},
+{
+  "name":"java.util.LinkedList"
+},
+{
+  "name":"java.util.List"
+},
+{
+  "name":"java.util.Map"
+},
+{
+  "name":"java.util.PriorityQueue"
+},
+{
+  "name":"java.util.Properties",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Queue"
+},
+{
+  "name":"java.util.RandomAccess"
+},
+{
+  "name":"java.util.Set"
+},
+{
+  "name":"java.util.TimeZone"
+},
+{
+  "name":"java.util.UUID"
+},
+{
+  "name":"java.util.concurrent.ArrayBlockingQueue"
+},
+{
+  "name":"java.util.concurrent.BlockingQueue"
+},
+{
+  "name":"java.util.concurrent.CancellationException"
+},
+{
+  "name":"java.util.concurrent.CompletableFuture"
+},
+{
+  "name":"java.util.concurrent.ConcurrentHashMap"
+},
+{
+  "name":"java.util.concurrent.ConcurrentLinkedQueue"
+},
+{
+  "name":"java.util.concurrent.CopyOnWriteArrayList"
+},
+{
+  "name":"java.util.concurrent.CountDownLatch"
+},
+{
+  "name":"java.util.concurrent.Executor"
+},
+{
+  "name":"java.util.concurrent.Executors"
+},
+{
+  "name":"java.util.concurrent.Future"
+},
+{
+  "name":"java.util.concurrent.LinkedBlockingQueue"
+},
+{
+  "name":"java.util.concurrent.ScheduledExecutorService"
+},
+{
+  "name":"java.util.concurrent.ScheduledFuture"
+},
+{
+  "name":"java.util.concurrent.ScheduledThreadPoolExecutor"
+},
+{
+  "name":"java.util.concurrent.SynchronousQueue"
+},
+{
+  "name":"java.util.concurrent.ThreadFactory"
+},
+{
+  "name":"java.util.concurrent.TimeUnit"
+},
+{
+  "name":"java.util.concurrent.TimeoutException"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicInteger"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicLong"
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference"
+},
+{
+  "name":"java.util.concurrent.locks.Lock"
+},
+{
+  "name":"java.util.concurrent.locks.ReentrantLock"
+},
+{
+  "name":"java.util.logging.Level",
+  "allPublicFields":true
+},
+{
+  "name":"java.util.logging.Logger",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.regex.Matcher"
+},
+{
+  "name":"java.util.regex.Pattern"
+},
+{
+  "name":"java.util.stream.BaseStream"
+},
+{
+  "name":"main__init"
+},
+{
+  "name":"manifold.debug__init"
+},
+{
+  "name":"manifold.deferred.Deferrable"
+},
+{
+  "name":"manifold.deferred.Deferred"
+},
+{
+  "name":"manifold.deferred.ErrorDeferred"
+},
+{
+  "name":"manifold.deferred.IDeferred"
+},
+{
+  "name":"manifold.deferred.IDeferredListener"
+},
+{
+  "name":"manifold.deferred.IMutableDeferred"
+},
+{
+  "name":"manifold.deferred.LeakAwareDeferred"
+},
+{
+  "name":"manifold.deferred.Listener"
+},
+{
+  "name":"manifold.deferred.Recur"
+},
+{
+  "name":"manifold.deferred.SuccessDeferred"
+},
+{
+  "name":"manifold.deferred__init"
+},
+{
+  "name":"manifold.executor__init"
+},
+{
+  "name":"manifold.stream.BufferedStream"
+},
+{
+  "name":"manifold.stream.Callback"
+},
+{
+  "name":"manifold.stream.SinkProxy"
+},
+{
+  "name":"manifold.stream.SourceProxy"
+},
+{
+  "name":"manifold.stream.SplicedStream"
+},
+{
+  "name":"manifold.stream.core.IEventSink"
+},
+{
+  "name":"manifold.stream.core.IEventSource"
+},
+{
+  "name":"manifold.stream.core.IEventStream"
+},
+{
+  "name":"manifold.stream.core.Sinkable"
+},
+{
+  "name":"manifold.stream.core.Sourceable"
+},
+{
+  "name":"manifold.stream.core__init"
+},
+{
+  "name":"manifold.stream.default.Consumer"
+},
+{
+  "name":"manifold.stream.default.Consumption"
+},
+{
+  "name":"manifold.stream.default.Producer"
+},
+{
+  "name":"manifold.stream.default.Production"
+},
+{
+  "name":"manifold.stream.default.Stream"
+},
+{
+  "name":"manifold.stream.default__init"
+},
+{
+  "name":"manifold.stream.deferred.DeferredSink"
+},
+{
+  "name":"manifold.stream.deferred.DeferredSource"
+},
+{
+  "name":"manifold.stream.deferred__init"
+},
+{
+  "name":"manifold.stream.graph.AsyncPut"
+},
+{
+  "name":"manifold.stream.graph.Downstream"
+},
+{
+  "name":"manifold.stream.graph__init"
+},
+{
+  "name":"manifold.stream.iterator.IteratorSource"
+},
+{
+  "name":"manifold.stream.iterator__init"
+},
+{
+  "name":"manifold.stream.queue.BlockingQueueSink"
+},
+{
+  "name":"manifold.stream.queue.BlockingQueueSource"
+},
+{
+  "name":"manifold.stream.queue__init"
+},
+{
+  "name":"manifold.stream.random_access.RandomAccessSource"
+},
+{
+  "name":"manifold.stream.random_access__init"
+},
+{
+  "name":"manifold.stream.seq.SeqSource"
+},
+{
+  "name":"manifold.stream.seq__init"
+},
+{
+  "name":"manifold.stream__init"
+},
+{
+  "name":"manifold.time.IClock"
+},
+{
+  "name":"manifold.time.IMockClock"
+},
+{
+  "name":"manifold.time__init"
+},
+{
+  "name":"manifold.utils__init"
+},
+{
+  "name":"potemkin.collections$eval3",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"potemkin.collections.PotemkinMap"
+},
+{
+  "name":"potemkin.collections.PotemkinMeta"
+},
+{
+  "name":"potemkin.collections__init"
+},
+{
+  "name":"potemkin.macros__init"
+},
+{
+  "name":"potemkin.namespaces__init"
+},
+{
+  "name":"potemkin.types.PotemkinType"
+},
+{
+  "name":"potemkin.types__init"
+},
+{
+  "name":"potemkin.utils__init"
+},
+{
+  "name":"potemkin.walk__init"
+},
+{
+  "name":"potemkin__init"
+},
+{
+  "name":"primitive_math.Primitives"
+},
+{
+  "name":"primitive_math__init"
+},
+{
+  "name":"riddley.Util"
+},
+{
+  "name":"riddley.compiler__init"
+},
+{
+  "name":"riddley.walk__init"
+},
+{
+  "name":"sun.misc.Cleaner",
+  "methods":[{"name":"clean","parameterTypes":[] }]
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[
+    {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, 
+    {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }
+  ]
+},
+{
+  "name":"sun.misc.VM",
+  "methods":[{"name":"maxDirectMemory","parameterTypes":[] }]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[
+    {"name":"publicSelectedKeys"}, 
+    {"name":"selectedKeys"}
+  ]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.Sun",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
