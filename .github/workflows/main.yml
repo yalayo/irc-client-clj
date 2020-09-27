@@ -19,4 +19,11 @@ jobs:
       - run: clojure -A:native-image
         env:
           GRAALVM_HOME: '/opt/hostedtoolcache/GraalVM/20.2.0-java8/x64'
+      - run: chmod 755 bootstrap
+      - run: zip function.zip core bootstrap
+      - uses: chrislennon/action-aws-cli@v1.1
+      - run: aws lambda create-function --function-name bash-runtime --zip-file fileb://function.zip --handler function.handler --runtime provided --role arn:aws:iam::087273210141:role/irc-lambda-role
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       
